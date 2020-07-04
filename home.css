@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(11.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu-bar{
+    background: rgb(7, 50, 131);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 8px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover{
+    background-color: springgreen;
+    border-radius: 5px;
+}
+.menu-bar .fa{
+    margin-right: 5px;
+}
+.sum-menu-1{
+  display: none;
+}
+.menu-bar ul li:hover .sum-menu-1{
+  display: block;
+  position: absolute;
+  background-color:rgb(9, 117, 9);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sum-menu-1 ul{
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sum-menu-1 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+
+}
+.menu-bar ul li:hover .sum-menu-1 ul li:last-child{
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sum-menu-1 ul li a:hover{
+  color: turquoise;
+}
+.fa-angel-right{
+  float: right;
+}
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("img_nature.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .loginbtn {
+    padding: 14px 20px;
+    background-color: #3d0b9b;
+  }
+  .signupbtn{
+    color: white;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .loginbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .loginbtn, .signupbtn {
+       width: 100%;
+    }

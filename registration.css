@@ -1,0 +1,103 @@
+body{
+    background-image:url(image/hd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+ h1{
+       color: aqua;
+       font-style: italic;
+    
+}
+label {
+    width: 120px;
+    display:inline-block;
+    color:white
+
+
+}
+p{
+        cursor: pointer;
+    text-transform: capitalize;
+    
+}
+button:hover{
+    background-color: brown;
+    color: chartreuse;
+    cursor: pointer;
+    font-size: medium;
+}
+button{
+  font-size: large;
+  margin-top: 20px;
+}
+p.drop-cap::first-letter{
+    font-size: 2.5em;
+    float: left;
+    margin: .15em;
+
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.value{
+    color: white;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #062f86;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #064270;
+    color: white;
+  }
+  .fa-youtube {
+    background: #a70808;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #065796;
+    color: white;
+  }
+  .row li{
+    display: inline;
+
+  }
+  .row li a{
+    margin: 5px;
+    border: 1px solid white;
+    background-color:white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+
+  }
+  .row{
+    float: right;
+  }
+  
